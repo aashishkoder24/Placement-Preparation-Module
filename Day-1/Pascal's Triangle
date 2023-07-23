@@ -1,0 +1,22 @@
+class Solution {
+    public List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> arr =new ArrayList<>();
+        Integer[] a = new Integer[1];
+        a[0] = 1;
+        List<Integer> k = Arrays.asList(a);
+        arr.add(k);
+        for(int i = 1;i<numRows;i++){
+            k = arr.get(i-1);
+            List<Integer> m = new ArrayList<>();
+            m.add(k.get(0));
+            int j =0,l = k.size()-1;
+            while(j<l){
+                m.add(k.get(j)+k.get(j+1));
+                j++;
+            }
+            m.add(k.get(l));
+            arr.add(m);
+        }
+        return arr;
+    }
+}

@@ -1,0 +1,15 @@
+class Solution {
+    public int maxProfit(int[] prices) {
+        int maxPro = 0, smallest = prices[0];
+        for(int i =1;i<prices.length;i++){
+            int curr = prices[i]-smallest;
+            if(curr>maxPro){
+                maxPro = curr;
+            }
+            if(prices[i]<smallest){
+                smallest = prices[i];
+            }
+        }
+        return maxPro;
+    }
+}
