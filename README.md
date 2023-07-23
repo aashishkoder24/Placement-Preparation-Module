@@ -2,7 +2,7 @@
 <!--ABOUT ME CODE-->
  **About Myself** <br> 
 
-✔️ **Abhinav Sharma** <br>
+✔️ **Aashish Raghav** <br>
 
 ✔️ **Information Technology** <br>
 
@@ -10,6 +10,6 @@
 
  ✔️ **Section - A** <br>
  
- ✔️ **Roll No- 2000290130007** <br>
+ ✔️ **Roll No- 2000290130001** <br>
 
 <br>
